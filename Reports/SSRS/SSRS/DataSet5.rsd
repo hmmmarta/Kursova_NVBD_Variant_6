@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet5">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>EVALUATE SUMMARIZECOLUMNS('DW Dim Patient'[Patient Key], 'DW Dim Patient'[First Name], 'DW Dim Patient'[Last Name], 'DW Dim Patient'[Birth Date], 'DW Dim Doctor'[First Name], 'DW Dim Doctor'[Last Name], 'DW Dim Diagnosis'[Diagnosis Description], 'DW Dim Diagnosis'[Disease Name], 'DW Dim Result'[Result Name], FILTER(VALUES('DW Dim Doctor'[Last Name]), ('DW Dim Doctor'[Last Name] = "James") || ('DW Dim Doctor'[Last Name] = "Norris") || ('DW Dim Doctor'[Last Name] = "Patterson")), "Visit Count", [Visit Count])</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+          <CommandType>DAX</CommandType>
+          <QuerySpecification xsi:type="MDXQuerySpecification">
+            <Select>
+              <Items>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DW Dim Patient</DimensionName>
+                    <HierarchyName>Patient Key</HierarchyName>
+                    <HierarchyUniqueName>[DW Dim Patient].[Patient Key]</HierarchyUniqueName>
+                    <LevelName>Patient Key</LevelName>
+                    <UniqueName>[DW Dim Patient].[Patient Key].[Patient Key]</UniqueName>
+                  </ID>
+                  <ItemCaption>Patient Key</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DW Dim Patient</DimensionName>
+                    <HierarchyName>First Name</HierarchyName>
+                    <HierarchyUniqueName>[DW Dim Patient].[First Name]</HierarchyUniqueName>
+                    <LevelName>First Name</LevelName>
+                    <UniqueName>[DW Dim Patient].[First Name].[First Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>First Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DW Dim Patient</DimensionName>
+                    <HierarchyName>Last Name</HierarchyName>
+                    <HierarchyUniqueName>[DW Dim Patient].[Last Name]</HierarchyUniqueName>
+                    <LevelName>Last Name</LevelName>
+                    <UniqueName>[DW Dim Patient].[Last Name].[Last Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Last Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DW Dim Patient</DimensionName>
+                    <HierarchyName>Birth Date</HierarchyName>
+                    <HierarchyUniqueName>[DW Dim Patient].[Birth Date]</HierarchyUniqueName>
+                    <LevelName>Birth Date</LevelName>
+                    <UniqueName>[DW Dim Patient].[Birth Date].[Birth Date]</UniqueName>
+                  </ID>
+                  <ItemCaption>Birth Date</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DW Dim Doctor</DimensionName>
+                    <HierarchyName>First Name</HierarchyName>
+                    <HierarchyUniqueName>[DW Dim Doctor].[First Name]</HierarchyUniqueName>
+                    <LevelName>First Name</LevelName>
+                    <UniqueName>[DW Dim Doctor].[First Name].[First Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>First Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DW Dim Doctor</DimensionName>
+                    <HierarchyName>Last Name</HierarchyName>
+                    <HierarchyUniqueName>[DW Dim Doctor].[Last Name]</HierarchyUniqueName>
+                    <LevelName>Last Name</LevelName>
+                    <UniqueName>[DW Dim Doctor].[Last Name].[Last Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Last Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DW Dim Diagnosis</DimensionName>
+                    <HierarchyName>Diagnosis Description</HierarchyName>
+                    <HierarchyUniqueName>[DW Dim Diagnosis].[Diagnosis Description]</HierarchyUniqueName>
+                    <LevelName>Diagnosis Description</LevelName>
+                    <UniqueName>[DW Dim Diagnosis].[Diagnosis Description].[Diagnosis Description]</UniqueName>
+                  </ID>
+                  <ItemCaption>Diagnosis Description</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DW Dim Diagnosis</DimensionName>
+                    <HierarchyName>Disease Name</HierarchyName>
+                    <HierarchyUniqueName>[DW Dim Diagnosis].[Disease Name]</HierarchyUniqueName>
+                    <LevelName>Disease Name</LevelName>
+                    <UniqueName>[DW Dim Diagnosis].[Disease Name].[Disease Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Disease Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DW Dim Result</DimensionName>
+                    <HierarchyName>Result Name</HierarchyName>
+                    <HierarchyUniqueName>[DW Dim Result].[Result Name]</HierarchyUniqueName>
+                    <LevelName>Result Name</LevelName>
+                    <UniqueName>[DW Dim Result].[Result Name].[Result Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Result Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Measure">
+                    <MeasureName>Visit Count</MeasureName>
+                    <UniqueName>[Measures].[Visit Count]</UniqueName>
+                  </ID>
+                  <ItemCaption>Visit Count</ItemCaption>
+                  <BackColor>true</BackColor>
+                  <ForeColor>true</ForeColor>
+                  <FontFamily>true</FontFamily>
+                  <FontSize>true</FontSize>
+                  <FontWeight>true</FontWeight>
+                  <FontStyle>true</FontStyle>
+                  <FontDecoration>true</FontDecoration>
+                  <FormattedValue>true</FormattedValue>
+                  <FormatString>true</FormatString>
+                </Item>
+              </Items>
+            </Select>
+            <AutoExecute>false</AutoExecute>
+            <From>Policlinic DW</From>
+            <Filter>
+              <FilterItems>
+                <FilterItem>
+                  <HierarchyUniqueName>[DW Dim Doctor].[Last Name]</HierarchyUniqueName>
+                  <Condition xsi:type="EqualTo">
+                    <Members>
+                      <Member>
+                        <MemberUniqueName>[DW Dim Doctor].[Last Name].&amp;[James]</MemberUniqueName>
+                      </Member>
+                      <Member>
+                        <MemberUniqueName>[DW Dim Doctor].[Last Name].&amp;[Norris]</MemberUniqueName>
+                      </Member>
+                      <Member>
+                        <MemberUniqueName>[DW Dim Doctor].[Last Name].&amp;[Patterson]</MemberUniqueName>
+                      </Member>
+                    </Members>
+                  </Condition>
+                </FilterItem>
+              </FilterItems>
+            </Filter>
+            <Calculations />
+            <Aggregates />
+            <QueryProperties>
+              <IncludeMemberValue>true</IncludeMemberValue>
+            </QueryProperties>
+          </QuerySpecification>
+          <Query>
+            <Statement>EVALUATE SUMMARIZECOLUMNS('DW Dim Patient'[Patient Key], 'DW Dim Patient'[First Name], 'DW Dim Patient'[Last Name], 'DW Dim Patient'[Birth Date], 'DW Dim Doctor'[First Name], 'DW Dim Doctor'[Last Name], 'DW Dim Diagnosis'[Diagnosis Description], 'DW Dim Diagnosis'[Disease Name], 'DW Dim Result'[Result Name], FILTER(VALUES('DW Dim Doctor'[Last Name]), ('DW Dim Doctor'[Last Name] = "James") || ('DW Dim Doctor'[Last Name] = "Norris") || ('DW Dim Doctor'[Last Name] = "Patterson")), "Visit Count", [Visit Count])</Statement>
+            <ParameterDefinitions />
+          </Query>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="Patient_Key">
+        <DataField>DW Dim Patient[Patient Key]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="First_Name">
+        <DataField>DW Dim Patient[First Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Last_Name">
+        <DataField>DW Dim Patient[Last Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Birth_Date">
+        <DataField>DW Dim Patient[Birth Date]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="First_Name2">
+        <DataField>DW Dim Doctor[First Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Last_Name2">
+        <DataField>DW Dim Doctor[Last Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Diagnosis_Description">
+        <DataField>DW Dim Diagnosis[Diagnosis Description]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Disease_Name">
+        <DataField>DW Dim Diagnosis[Disease Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Result_Name">
+        <DataField>DW Dim Result[Result Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Visit_Count">
+        <DataField>[Visit Count]</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
