@@ -1,0 +1,654 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b976e2a0-81af-4a50-9b03-c374c28c9316" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Policlinic DW</ID>
+  <Name>Policlinic DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="21" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5984" scrolltop="7411" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="55" x="17039" y="12298" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01cc00009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DW_DimContraindication" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3747" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000a30e00009b070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_DimContraindication" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DW_DimDate" left="14272" top="26575" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a30e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_DimDate" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DW_DimDiagnosis" left="13825" top="5947" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3895" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000370f00006b0a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_DimDiagnosis" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DW_DimDoctor" left="10125" top="17104" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3704" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000780e0000d30b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_DimDoctor" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DW_DimMedicine" left="20" top="22408" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3048" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000e80b000003090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_DimMedicine" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DW_DimPatient" left="11388" top="10228" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_DimPatient" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DW_DimResult" left="10263" top="22228" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_DimResult" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DW_FactMedicalVisit" left="19193" top="16261" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_FactMedicalVisit" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DW_FactVisitMedicine" left="911" top="14870" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a30e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_FactVisitMedicine" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="15373" top="19348" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="6170" height="7727" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactMedicalVisit-DW_DimDate]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="8" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15772" y="26575" />
+                    <point x="15772" y="23202" />
+                    <point x="21243" y="23202" />
+                    <point x="21243" y="19648" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12489" top="12756" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="7404" height="3805" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactMedicalVisit-DW_DimPatient]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="8" sourceattachpoint="5" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12888" y="13255" />
+                    <point x="12888" y="14952" />
+                    <point x="19593" y="14952" />
+                    <point x="19593" y="16261" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12128" top="15921" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="7365" height="1683" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactMedicalVisit-DW_DimDoctor]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="8" sourceattachpoint="8" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12527" y="17104" />
+                    <point x="12527" y="16221" />
+                    <point x="17251" y="16221" />
+                    <point x="17251" y="16854" />
+                    <point x="19193" y="16854" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="15373" top="8115" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="6170" height="8446" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactMedicalVisit-DW_DimDiagnosis]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="8" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15772" y="8614" />
+                    <point x="15772" y="12527" />
+                    <point x="21243" y="12527" />
+                    <point x="21243" y="16261" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="11364" top="19348" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="8529" height="3380" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactMedicalVisit-DW_DimResult]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="8" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11763" y="22228" />
+                    <point x="11763" y="21028" />
+                    <point x="19593" y="21028" />
+                    <point x="19593" y="19648" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3611" top="11342" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="8077" height="5701" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactVisitMedicine-DW_DimPatient]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="9" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11388" y="11741" />
+                    <point x="5747" y="11741" />
+                    <point x="5747" y="16743" />
+                    <point x="3911" y="16743" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3611" top="16443" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="6814" height="1474" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactVisitMedicine-DW_DimDoctor]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="9" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="10125" y="17517" />
+                    <point x="6264" y="17517" />
+                    <point x="6264" y="16743" />
+                    <point x="3911" y="16743" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3611" top="16443" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="10961" height="12405" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactVisitMedicine-DW_DimDate]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="9" sourceattachpoint="16" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="14272" y="28448" />
+                    <point x="8670" y="28448" />
+                    <point x="8670" y="16743" />
+                    <point x="3911" y="16743" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1011" top="18317" logicalid="18" controlid="18" masterid="0" hint1="0" hint2="0" width="933" height="4591" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactVisitMedicine-DW_DimMedicine]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="9" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1544" y="22408" />
+                    <point x="1544" y="21208" />
+                    <point x="1311" y="21208" />
+                    <point x="1311" y="18617" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3611" top="6881" logicalid="19" controlid="19" masterid="0" hint1="0" hint2="0" width="10514" height="10162" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactVisitMedicine-DW_DimDiagnosis]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="9" sourceattachpoint="18" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="13825" y="7280" />
+                    <point x="8447" y="7280" />
+                    <point x="8447" y="16743" />
+                    <point x="3911" y="16743" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3611" top="16993" logicalid="20" controlid="20" masterid="0" hint1="0" hint2="0" width="6952" height="6608" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DW_FactVisitMedicine-DW_DimResult]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="9" sourceattachpoint="12" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="10263" y="23201" />
+                    <point x="5970" y="23201" />
+                    <point x="5970" y="17293" />
+                    <point x="3911" y="17293" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-5984</DiagramViewPortLeft>
+            <DiagramViewPortTop>7411</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>55</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Policlinic DW</DataSourceID>
+  <Schema>
+    <xs:schema id="Policlinic_x0020_DW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Policlinic_x0020_DW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="595f154e-5533-41d4-b86b-e5d71469fffa">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DW_DimContraindication" msprop:design-time-name="4b3194c9-81af-4210-b920-f9e0e69d250f" msprop:FriendlyName="DW_DimContraindication" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_DimContraindication">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ContraindicationKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ContraindicationKey" msprop:DbColumnName="ContraindicationKey" msprop:design-time-name="bcda0ed4-3104-4b35-b2f9-14505acef759" type="xs:int" />
+                  <xs:element name="ContraindicationID" msprop:FriendlyName="ContraindicationID" msprop:DbColumnName="ContraindicationID" msprop:design-time-name="ba26b468-6f5a-4cce-b0cd-009cd8a264ec" type="xs:int" />
+                  <xs:element name="Description" msprop:FriendlyName="Description" msprop:DbColumnName="Description" msprop:design-time-name="df9ab459-e921-4159-b3f4-111d1411d286" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_DimDate" msprop:design-time-name="25c02fcb-00b0-46e5-b994-c955cd5dd1c9" msprop:FriendlyName="DW_DimDate" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_DimDate">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DateKey" msprop:FriendlyName="DateKey" msprop:DbColumnName="DateKey" msprop:design-time-name="b72487cb-fe6e-49fd-a400-f7e71007f909" type="xs:int" />
+                  <xs:element name="FullDate" msprop:FriendlyName="FullDate" msprop:DbColumnName="FullDate" msprop:design-time-name="379ac042-0796-41e6-be1b-8a70c68fd157" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day" msprop:FriendlyName="Day" msprop:DbColumnName="Day" msprop:design-time-name="111e8c2a-ae07-4fc5-b16e-aa28701f00f5" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="20378c01-030a-4daf-ba27-85afdeea4413" type="xs:int" minOccurs="0" />
+                  <xs:element name="MonthName" msprop:FriendlyName="MonthName" msprop:DbColumnName="MonthName" msprop:design-time-name="b683eab8-f7ee-4f17-9e08-172a84e1bbc8" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quarter" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:design-time-name="76f367d3-71a4-4a0d-89ad-c1298731396b" type="xs:int" minOccurs="0" />
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="7489305e-ba7d-4728-a439-7a608744ccf7" type="xs:int" minOccurs="0" />
+                  <xs:element name="WeekDay" msprop:FriendlyName="WeekDay" msprop:DbColumnName="WeekDay" msprop:design-time-name="644147f3-65d9-490f-8eab-1520519a1d42" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_DimDiagnosis" msprop:design-time-name="2cd6f5ea-c2cd-424d-9170-dea53945d783" msprop:FriendlyName="DW_DimDiagnosis" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_DimDiagnosis">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DiagnosisKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="DiagnosisKey" msprop:DbColumnName="DiagnosisKey" msprop:design-time-name="6c29f052-03d4-4e54-a757-7504140c700a" type="xs:int" />
+                  <xs:element name="DiagnosisID" msprop:FriendlyName="DiagnosisID" msprop:DbColumnName="DiagnosisID" msprop:design-time-name="676833d7-6547-4260-bf07-d67271743196" type="xs:int" minOccurs="0" />
+                  <xs:element name="DiagnosisDescription" msprop:FriendlyName="DiagnosisDescription" msprop:DbColumnName="DiagnosisDescription" msprop:design-time-name="7be60816-6283-48b8-a526-8bca0a8fd538" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DiseaseName" msprop:FriendlyName="DiseaseName" msprop:DbColumnName="DiseaseName" msprop:design-time-name="344072ec-62ed-42b5-a77b-2b465ea12448" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ICD10Code" msprop:FriendlyName="ICD10Code" msprop:DbColumnName="ICD10Code" msprop:design-time-name="e4b2d96c-64d4-4983-81b3-f1bc43707136" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_DimDoctor" msprop:design-time-name="0f66ac1f-048c-4ba6-9771-7e6f2e309821" msprop:FriendlyName="DW_DimDoctor" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_DimDoctor">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DoctorKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="DoctorKey" msprop:DbColumnName="DoctorKey" msprop:design-time-name="1cf960e0-2373-406d-bcce-447d493a6dbc" type="xs:int" />
+                  <xs:element name="DoctorID" msprop:FriendlyName="DoctorID" msprop:DbColumnName="DoctorID" msprop:design-time-name="7d019d51-fc8c-48fa-a693-1079f8d6dbde" type="xs:int" minOccurs="0" />
+                  <xs:element name="FirstName" msprop:FriendlyName="FirstName" msprop:DbColumnName="FirstName" msprop:design-time-name="9aa80f34-7c96-4d74-8a8e-4b9c6257f139" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LastName" msprop:FriendlyName="LastName" msprop:DbColumnName="LastName" msprop:design-time-name="77aa14ad-3d40-432f-839c-3a4e672672a8" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SpecializationName" msprop:FriendlyName="SpecializationName" msprop:DbColumnName="SpecializationName" msprop:design-time-name="7a15d452-d14b-4cf8-bce7-d531dafd4dbc" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="HireDate" msprop:FriendlyName="HireDate" msprop:DbColumnName="HireDate" msprop:design-time-name="a83c0ec4-0176-4875-98f4-d4e0fc34a8b0" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_DimMedicine" msprop:design-time-name="4e492284-0f69-460c-a2dc-97c7a1642685" msprop:FriendlyName="DW_DimMedicine" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_DimMedicine">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="MedicineKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="MedicineKey" msprop:DbColumnName="MedicineKey" msprop:design-time-name="dff48346-ddb7-4e5d-87fc-f894aeb18489" type="xs:int" />
+                  <xs:element name="MedicineID" msprop:FriendlyName="MedicineID" msprop:DbColumnName="MedicineID" msprop:design-time-name="35cefdcb-9c55-41e8-be31-55d3abba6403" type="xs:int" />
+                  <xs:element name="MedicineName" msprop:FriendlyName="MedicineName" msprop:DbColumnName="MedicineName" msprop:design-time-name="ac1028d5-f55e-4cf7-9b7d-8c42ff736bd6" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Manufacturer" msprop:FriendlyName="Manufacturer" msprop:DbColumnName="Manufacturer" msprop:design-time-name="32c169ea-7fa6-474a-94b2-7b669265f62f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_DimPatient" msprop:design-time-name="048f9045-ce1c-42a6-bfda-5cf0b96cc7a3" msprop:FriendlyName="DW_DimPatient" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_DimPatient">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="PatientKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="PatientKey" msprop:DbColumnName="PatientKey" msprop:design-time-name="4c95f403-3d8d-4de1-9954-cd0ff0d9ae0c" type="xs:int" />
+                  <xs:element name="PatientID" msprop:FriendlyName="PatientID" msprop:DbColumnName="PatientID" msprop:design-time-name="2a857e26-175d-4d7f-adc1-8d5b40d40e1b" type="xs:int" minOccurs="0" />
+                  <xs:element name="FirstName" msprop:FriendlyName="FirstName" msprop:DbColumnName="FirstName" msprop:design-time-name="0761f63e-317a-4a3d-863d-7de1f3e2e759" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LastName" msprop:FriendlyName="LastName" msprop:DbColumnName="LastName" msprop:design-time-name="57d480b0-a05d-4698-b038-1378ce8642a5" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gender" msprop:FriendlyName="Gender" msprop:DbColumnName="Gender" msprop:design-time-name="8d24c3fc-7770-4d2b-93b4-eb968ac86048" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="BirthDate" msprop:FriendlyName="BirthDate" msprop:DbColumnName="BirthDate" msprop:design-time-name="497fb71d-5b5b-40e1-9a2b-83a84ba1e32a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_DimResult" msprop:design-time-name="a709fb40-79d2-4a51-8dad-cc186da18268" msprop:FriendlyName="DW_DimResult" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_DimResult">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ResultKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ResultKey" msprop:DbColumnName="ResultKey" msprop:design-time-name="752ecb8d-496b-4ef1-a2d3-cec58dea47fe" type="xs:int" />
+                  <xs:element name="ResultID" msprop:FriendlyName="ResultID" msprop:DbColumnName="ResultID" msprop:design-time-name="e5561879-d8d9-446a-8875-03e18200b1fc" type="xs:int" minOccurs="0" />
+                  <xs:element name="ResultName" msprop:FriendlyName="ResultName" msprop:DbColumnName="ResultName" msprop:design-time-name="7c82669a-9706-46ff-8b19-329b39164338" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_FactMedicalVisit" msprop:design-time-name="9e981b27-f836-4e40-8139-e60df483dacc" msprop:FriendlyName="DW_FactMedicalVisit" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_FactMedicalVisit">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="VisitFactID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="VisitFactID" msprop:DbColumnName="VisitFactID" msprop:design-time-name="ed6fe18b-c0ea-4181-8db1-bfc316a0b871" type="xs:int" />
+                  <xs:element name="DateKey" msprop:FriendlyName="DateKey" msprop:DbColumnName="DateKey" msprop:design-time-name="0e77f94e-52d2-4d91-9b6e-851291785f86" type="xs:int" />
+                  <xs:element name="PatientKey" msprop:FriendlyName="PatientKey" msprop:DbColumnName="PatientKey" msprop:design-time-name="731e87ba-3539-4bfc-a9ab-5c3f9bae3978" type="xs:int" />
+                  <xs:element name="DoctorKey" msprop:FriendlyName="DoctorKey" msprop:DbColumnName="DoctorKey" msprop:design-time-name="cb43a83c-bcb9-4f23-9529-f94101d1059c" type="xs:int" />
+                  <xs:element name="DiagnosisKey" msprop:FriendlyName="DiagnosisKey" msprop:DbColumnName="DiagnosisKey" msprop:design-time-name="c363255b-0842-48ac-8d39-d67763902a80" type="xs:int" />
+                  <xs:element name="ResultKey" msprop:FriendlyName="ResultKey" msprop:DbColumnName="ResultKey" msprop:design-time-name="0a7b28d2-36a0-4acb-8177-3c02470668e6" type="xs:int" />
+                  <xs:element name="VisitCount" msprop:FriendlyName="VisitCount" msprop:DbColumnName="VisitCount" msprop:design-time-name="cb467544-3887-41f2-84bc-96f3664796a7" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_FactVisitMedicine" msprop:design-time-name="39e7c8e4-0a4d-4b66-b0fe-559ca516bd6f" msprop:FriendlyName="DW_FactVisitMedicine" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_FactVisitMedicine">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="VisitFactID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="VisitFactID" msprop:DbColumnName="VisitFactID" msprop:design-time-name="d8a2c675-8246-47dc-8be6-3521f82ea9f4" type="xs:long" />
+                  <xs:element name="PatientKey" msprop:FriendlyName="PatientKey" msprop:DbColumnName="PatientKey" msprop:design-time-name="5001421c-8b20-4b14-b746-9f9b11f2a803" type="xs:int" />
+                  <xs:element name="DoctorKey" msprop:FriendlyName="DoctorKey" msprop:DbColumnName="DoctorKey" msprop:design-time-name="c26855e8-3ce8-4e3a-b433-a2408261a73f" type="xs:int" />
+                  <xs:element name="DateKey" msprop:FriendlyName="DateKey" msprop:DbColumnName="DateKey" msprop:design-time-name="a0bbba1a-f453-4253-a512-7e1443a3a90d" type="xs:int" />
+                  <xs:element name="MedicineKey" msprop:FriendlyName="MedicineKey" msprop:DbColumnName="MedicineKey" msprop:design-time-name="21169b4c-fce8-404c-8b44-30fede6695df" type="xs:int" />
+                  <xs:element name="DiagnosisKey" msprop:FriendlyName="DiagnosisKey" msprop:DbColumnName="DiagnosisKey" msprop:design-time-name="16dbe831-8c7b-4bdb-b562-fc4d6e9fe2be" type="xs:int" />
+                  <xs:element name="ResultKey" msprop:FriendlyName="ResultKey" msprop:DbColumnName="ResultKey" msprop:design-time-name="c6019960-b14f-4d23-9f1c-724806b2bbbe" type="xs:int" />
+                  <xs:element name="VisitCount" msprop:FriendlyName="VisitCount" msprop:DbColumnName="VisitCount" msprop:design-time-name="600d3fa3-3d46-4336-b2e8-d0bed7e5476a" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_DimContraindication" />
+          <xs:field xpath="ContraindicationKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DW_DimDate_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_DimDate" />
+          <xs:field xpath="DateKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DW_DimDiagnosis_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_DimDiagnosis" />
+          <xs:field xpath="DiagnosisKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DW_DimDoctor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_DimDoctor" />
+          <xs:field xpath="DoctorKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DW_DimMedicine_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_DimMedicine" />
+          <xs:field xpath="MedicineKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DW_DimPatient_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_DimPatient" />
+          <xs:field xpath="PatientKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DW_DimResult_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_DimResult" />
+          <xs:field xpath="ResultKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DW_FactMedicalVisit_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_FactMedicalVisit" />
+          <xs:field xpath="VisitFactID" />
+        </xs:unique>
+        <xs:unique name="dbo_DW_FactVisitMedicine_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_FactVisitMedicine" />
+          <xs:field xpath="VisitFactID" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="DW_FactMedicalVisit-DW_DimDate" msdata:parent="dbo_DW_DimDate" msdata:child="dbo_DW_FactMedicalVisit" msdata:parentkey="DateKey" msdata:childkey="DateKey" />
+          <msdata:Relationship name="DW_FactMedicalVisit-DW_DimPatient" msdata:parent="dbo_DW_DimPatient" msdata:child="dbo_DW_FactMedicalVisit" msdata:parentkey="PatientKey" msdata:childkey="PatientKey" />
+          <msdata:Relationship name="DW_FactMedicalVisit-DW_DimDoctor" msdata:parent="dbo_DW_DimDoctor" msdata:child="dbo_DW_FactMedicalVisit" msdata:parentkey="DoctorKey" msdata:childkey="DoctorKey" />
+          <msdata:Relationship name="DW_FactMedicalVisit-DW_DimDiagnosis" msdata:parent="dbo_DW_DimDiagnosis" msdata:child="dbo_DW_FactMedicalVisit" msdata:parentkey="DiagnosisKey" msdata:childkey="DiagnosisKey" />
+          <msdata:Relationship name="DW_FactMedicalVisit-DW_DimResult" msdata:parent="dbo_DW_DimResult" msdata:child="dbo_DW_FactMedicalVisit" msdata:parentkey="ResultKey" msdata:childkey="ResultKey" />
+          <msdata:Relationship name="DW_FactVisitMedicine-DW_DimPatient" msdata:parent="dbo_DW_DimPatient" msdata:child="dbo_DW_FactVisitMedicine" msdata:parentkey="PatientKey" msdata:childkey="PatientKey" />
+          <msdata:Relationship name="DW_FactVisitMedicine-DW_DimDoctor" msdata:parent="dbo_DW_DimDoctor" msdata:child="dbo_DW_FactVisitMedicine" msdata:parentkey="DoctorKey" msdata:childkey="DoctorKey" />
+          <msdata:Relationship name="DW_FactVisitMedicine-DW_DimDate" msdata:parent="dbo_DW_DimDate" msdata:child="dbo_DW_FactVisitMedicine" msdata:parentkey="DateKey" msdata:childkey="DateKey" />
+          <msdata:Relationship name="DW_FactVisitMedicine-DW_DimMedicine" msdata:parent="dbo_DW_DimMedicine" msdata:child="dbo_DW_FactVisitMedicine" msdata:parentkey="MedicineKey" msdata:childkey="MedicineKey" />
+          <msdata:Relationship name="DW_FactVisitMedicine-DW_DimDiagnosis" msdata:parent="dbo_DW_DimDiagnosis" msdata:child="dbo_DW_FactVisitMedicine" msdata:parentkey="DiagnosisKey" msdata:childkey="DiagnosisKey" />
+          <msdata:Relationship name="DW_FactVisitMedicine-DW_DimResult" msdata:parent="dbo_DW_DimResult" msdata:child="dbo_DW_FactVisitMedicine" msdata:parentkey="ResultKey" msdata:childkey="ResultKey" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Policlinic_x0020_DW xmlns="" />
+  </Schema>
+</DataSourceView>

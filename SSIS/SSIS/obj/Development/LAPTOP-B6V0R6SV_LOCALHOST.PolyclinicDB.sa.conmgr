@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LAPTOP-B6V0R6SV_LOCALHOST.PolyclinicDB.sa"
+  DTS:DTSID="{799A1E07-214D-4486-B71C-7712CB25D4E0}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=LAPTOP-B6V0R6SV\LOCALHOST;User ID=sa;Initial Catalog=PolyclinicDB;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-SSIS-{799A1E07-214D-4486-B71C-7712CB25D4E0}LAPTOP-B6V0R6SV\LOCALHOST.PolyclinicDB.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxAOrh2SBw0KXzG/Y0Or19QAAAAACAAAAAAAQZgAAAAEAACAAAACkNxDO131+VISE/5aPV+XN6CxI5a4H2PLmAOooEqQriwAAAAAOgAAAAAIAACAAAABgoMXDR65+OjdA7H/zPriC3EvlJyJ+Tz7hEkNf6NsKx3AAAABhd3TvUQINGmA8ZbJNVeEOKFylWY6G/Hw6ZqAi7+KE6irzBAC0vQoeY8pe7KsuyNiVOBJrSevX/h4x6qgf/jnz350GxjiVobd6ckab7z89unhPfAufDpY4B5tmaigQ+1S8pWiyfFb/nnQwgPNNDPZuQAAAAAlUQCUJjzCK2lJZB+whKudhuYgTkXwzTke3gOJkzZD3Y4qx1Esd/kttnUa7z84KWf3fO/pA/oT6RjyCM5/kTYM=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
